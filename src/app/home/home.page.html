@@ -1,20 +1,18 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="center">
+    <h1>Barcode Scan</h1>
+    <div class="break"></div>
+    <input class="barcode" type="image" src="../../assets/image/barcode.png" [routerLink]="['/item-list']"/> <!--Ideally this would take you to a camera app screen to scan barcodes-->
+    <div class="break"></div>
+    <ion-item class="border" lines="none">
+      <ion-input placeholder="Search">
+      </ion-input>
+    </ion-item>
+    <ion-button class="SearchBtn"expand="full" [routerLink]="['/item-list']">
+      <ion-icon class="fSize"name="arrow-forward-outline"></ion-icon>
+    </ion-button>
   </div>
+  
 </ion-content>

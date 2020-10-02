@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header style="margin-bottom: 20px;">
+      Search Results
+    </ion-list-header>
+    <ion-item (click)="goPage();">
+      <ion-avatar slot="start">
+        <img src="../../assets/image/chibi-robo.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h2>Chibi-Robo</h2>
+        <h3>Gamecube</h3>
+        <h3 style="color: green">$150</h3>
+        <p>Chibi robo is a game about a cleaner robot</p>
+      </ion-label>
+    </ion-item>
+    <ion-item (click)="goPage();">
+      <ion-avatar slot="start">
+        <img src="../../assets/image/Chibi_Robo_Park_Patrol_Boxart.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h2>Chibi-Robo Park Patrol</h2>
+        <h3>Nintendo DS</h3>
+        <h3 style="color: green">$33.11</h3>
+        <p>Chibi robo cleaning in a park</p>
+      </ion-label>
+    </ion-item>
+    <ion-item (click)="goPage();">
+      <ion-avatar slot="start">
+        <img src="../../assets/image/chibi-robo-clean.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h2>Chibi-Robo Clean Sweep</h2>
+        <h3>Nintendo DS</h3>
+        <h3 style="color: green">$86.11</h3>
+        <p>Sequel to Chibi Robo</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

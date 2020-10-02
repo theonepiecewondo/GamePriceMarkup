@@ -25,3 +25,37 @@
 #container a {
   text-decoration: none;
 }
+.center{
+  margin-top: 50%;
+  margin-bottom: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+ion-item {
+  --min-height: 15px;
+}
+.border{
+  width: 70%;
+  border: solid 1px black;
+}
+.SearchBtn{
+  height: 42px;
+  width: 50px;
+  margin-left: -1px;
+}
+.fSize{
+  font-size: 2rem;
+}
+.button{
+  color: white;
+}
+.barcode{
+  width: 50%;
+  height: 50%;
+}
