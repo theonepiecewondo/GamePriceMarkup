@@ -1,0 +1,7 @@
+{
+  "name": "GameSearch_Markup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
